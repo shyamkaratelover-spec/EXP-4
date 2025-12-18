@@ -36,17 +36,79 @@ PROCEDURE:
 
 CIRCUIT DIAGRAMS
 
-Half wave rectifier with filter:
+Half wave rectifier:
 
-Bridge rectifier with filter:
-
-TABULAR COLUMN
-Rectifier without filter
-TABULAR COLUMN
-Rectifier with filter
+<img width="1092" height="777" alt="image" src="https://github.com/user-attachments/assets/eb4ded52-9819-4a14-96a5-dab00fd8347d" />
 
 WAVEFORM:
 
+<img width="757" height="397" alt="image" src="https://github.com/user-attachments/assets/4abbcf27-3a27-4ad8-8363-201afa22c520" />
+
+TABULAR COLUMN:
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th rowspan="2" colspan="2">Input Voltage</th>
+    <th colspan="4">Output Voltage</th>
+  </tr>
+  <tr>
+    <th colspan="2">Without Filter</th>
+    <th colspan="2">With Filter</th>
+  </tr>
+  <tr>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+  </tr>
+  <tr>
+    <td>100</td>
+    <td>20</td>
+    <td>100</td>
+    <td>10</td>
+    <td>100V, 5V</td>
+    <td>5 ms, 25 ms</td>
+  </tr>
+</table>
+
+Full wave rectifier:
+
+<img width="1016" height="810" alt="image" src="https://github.com/user-attachments/assets/cd4c4e48-6e6a-4f99-9e72-93d401dd3594" />
+
+WAVEFORM:
+
+<img width="753" height="396" alt="image" src="https://github.com/user-attachments/assets/ab1ddb1d-3fe5-443e-bb97-08ff7b4302cb" />
+
+TABULAR COLUMN:
+
+<table border="1" cellspacing="0" cellpadding="6">
+  <tr>
+    <th rowspan="2" colspan="2">Input Voltage</th>
+    <th colspan="4">Output Voltage</th>
+  </tr>
+  <tr>
+    <th colspan="2">Without Filter</th>
+    <th colspan="2">With Filter</th>
+  </tr>
+  <tr>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+    <th>Vm (V)</th>
+    <th>t (ms)</th>
+  </tr>
+  <tr>
+    <td>50</td>
+    <td>20</td>
+    <td>50</td>
+    <td>5</td>
+    <td>50, 46</td>
+    <td>5 ms, 14 ms</td>
+  </tr>
+</table>
 
 RESULT:
 
